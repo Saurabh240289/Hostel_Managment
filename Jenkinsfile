@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/himanshitekade/hostel-management.git'
+                git 'https://github.com/himanshitekade/Hostel_Managment.git'
             }
         }
         stage('Build with Maven') {
