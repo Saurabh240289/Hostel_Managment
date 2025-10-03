@@ -19,7 +19,7 @@ pipeline {
         stage('Push to DockerHub') {
             steps {
                 sh '''
-                    docker login -u himanshitekade -p admin@123
+                    docker login -u himanshitekade -p <your-password>
                     docker push himanshitekade/ht-hostel-management
                 '''
             }
