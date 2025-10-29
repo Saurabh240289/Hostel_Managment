@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t skulkarni24/hostel_management'
+                sh 'docker build -t skulkarni24/hostel_management' .
             }
         }
         stage('Push to DockerHub') {
